@@ -1,0 +1,26 @@
+{
+  "name": "nexorastate",
+  "version": "1.0.0",
+  "description": "NEXORASTATE - Tunisia-based thrift store offering handpicked second-hand and vintage clothing",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server"
+  },
+  "keywords": [
+    "thrift",
+    "vintage",
+    "fashion",
+    "sustainable",
+    "secondhand",
+    "clothing",
+    "tunisia"
+  ],
+  "author": "thereal4youb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thereal4youb/NEXORASTATE.git"
+  },
+  "homepage": "https://github.com/thereal4youb/NEXORASTATE#readme"
+}
