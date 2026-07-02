@@ -1,0 +1,48 @@
+# Git ignore file for NEXORASTATE
+# This file tells Git which files to ignore
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node modules (if using npm in the future)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build/Distribution
+dist/
+build/
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+temp/
+.cache/
+
+# OS-specific
+.Spotlight-V100
+.Trashes
+ehthumbs.db
